@@ -21,7 +21,7 @@ light green : #a6e22e
 /* Theme Styles */
 body {
   font-family: 'Muli', sans-serif;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 100%;
   color: #191919;
   background-color: #000;
@@ -255,7 +255,7 @@ h3 {
 
 ul {
   list-style-position: inside;
-  font-weight: 200;
+  font-weight: 300;
   line-height: 2.25;
   padding: 0px 0 0 0px;
 }
