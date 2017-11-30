@@ -52,6 +52,8 @@ body {
 
 #slide-1 h4 {
   text-align: center;
+  -webkit-margin-before: .80em;
+  -webkit-margin-after: .80em;
 }
 
 #slide-1 p {
@@ -188,6 +190,7 @@ img.badge {
   height: 0;
   width: 0;
   margin-right: 15px;
+  opacity: 0.50;
   border: 15px solid #272727;
   -webkit-touch-callout: none;
     -webkit-user-select: none;
