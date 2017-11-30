@@ -169,7 +169,7 @@ img.badge {
 .overview {
   display: inline-block;
   float: left;
-  color: #C7C7C7;
+  color: #272727;
   margin-right: 15px;
   font-weight: bold;
   font-size: 30px;
@@ -184,7 +184,7 @@ img.badge {
   height: 0;
   width: 0;
   margin-right: 15px;
-  border: 15px solid #C7C7C7;
+  border: 15px solid #272727;
   -webkit-touch-callout: none;
     -webkit-user-select: none;
      -khtml-user-select: none;
@@ -354,7 +354,7 @@ table th {
 .progress-bar {
   height: 3px;
   width: 0;
-  background-color: #1DB4D0;
+  background-color: #ff8b00;
   -webkit-transition: width .15s ease-out;
      -moz-transition: width .15s ease-out;
        -o-transition: width .15s ease-out;
