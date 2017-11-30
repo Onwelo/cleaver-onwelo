@@ -47,11 +47,16 @@ body {
 }
 
 #slide-1 h1 {
-    font-weight: 200;
+  font-weight: 200;
+  text-transform: uppercase;
 }
 
 #slide-1 p {
   text-shadow: 1px 1px 1px #191919;
+}
+
+#slide-1 hr {
+   color: #fff; 
 }
 
 .center {
@@ -115,7 +120,7 @@ img.badge {
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 100px;
+  padding: 20px;
   z-index: 1;
   overflow: hidden;
   box-sizing: border-box;
@@ -141,7 +146,7 @@ img.badge {
   opacity: 1;
   max-width: 800px;
   max-height: 600px;
-  margin: 80px auto 0 auto;
+  margin: 20px auto 0 auto;
   padding: 0;
   font-size: 200%;
   font-weight: 200;
@@ -246,7 +251,7 @@ h3 {
 
 ul {
   font-weight: 200;
-  line-height: 1.375;
+  line-height: 2.25;
   padding: 20px 0 0 60px;
 }
 
