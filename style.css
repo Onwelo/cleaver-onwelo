@@ -14,7 +14,6 @@ light green : #a6e22e
 */
 
 @import url(https://fonts.googleapis.com/css?family=Muli:200,300,400,800);
-@import url(https://fonts.googleapis.com/css?family=Hind:400,500,600,700,300);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
 @import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
 
@@ -49,6 +48,10 @@ body {
 #slide-1 h1 {
   font-weight: 200;
   text-transform: uppercase;
+}
+
+#slide-1 h4 {
+  text-align: center;
 }
 
 #slide-1 p {
@@ -170,6 +173,7 @@ img.badge {
   display: inline-block;
   float: left;
   color: #272727;
+  opacity: 0.50;
   margin-right: 15px;
   font-weight: bold;
   font-size: 30px;
@@ -177,7 +181,7 @@ img.badge {
   cursor: pointer;
 }
 .overview:hover {
-  color: #ff8b00;
+   opacity: 0.25;
 }
 .arrow {
   float: left;
@@ -210,12 +214,13 @@ img.badge {
 }
 
 .prev:hover {
-  border-right-color: #ff8b00;
+  opacity: 0.25;
   cursor: pointer;
 }
 
 .next:hover {
-  border-left-color: #ff8b00;
+  opacity: 0.25;
+  /* border-left-color: #ff8b00; */
   cursor: pointer;
 }
 
