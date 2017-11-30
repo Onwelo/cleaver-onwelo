@@ -13,7 +13,7 @@ magenta     : #f92672
 light green : #a6e22e
 */
 
-@import url('https://fonts.googleapis.com/css?family=Muli:200,300,400,800');
+@import url(https://fonts.googleapis.com/css?family=Muli:200,300,400,800);
 @import url(https://fonts.googleapis.com/css?family=Hind:400,500,600,700,300);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
 @import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
@@ -30,7 +30,7 @@ body {
 /* Custom Slide Styles */
 #slide-1 {
   color: #fafafa;
-  background: #222;
+  background: #ff8b00;
   background-size: cover;
 }
 #slide-1::after {
