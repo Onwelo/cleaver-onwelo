@@ -77,7 +77,7 @@ img.badge {
   justify-content: center;
 }
 .slides.active .slide:not(.hidden) {
-  border: 22px solid red;
+  border: 22px solid #ff8b00;
 }
 
 .slide-overlay {
@@ -254,12 +254,14 @@ h3 {
 }
 
 ul {
+  list-style-position: inside;
   font-weight: 200;
   line-height: 2.25;
   padding: 0px 0 0 0px;
 }
 
 li > ul {
+  padding-left: 25px; 
   font-size: 80%;
 }
 
@@ -323,8 +325,8 @@ a {
 }
 
 a:hover {
-  color: #1db4d0;
-  border-bottom: 1px solid #1db4d0;
+  color: #ff8b00;
+  border-bottom: 1px solid #ff8b00;
 }
 
 hr {
