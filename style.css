@@ -151,7 +151,7 @@ img.badge {
   font-size: 200%;
   font-weight: 200;
   line-height: 1.375;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .slide-content img {
@@ -247,6 +247,10 @@ h3 {
   font-size: 140%;
   line-height: 1.2;
   border-bottom: 1px ridge #ff8b00;
+}
+
+.bolder {
+   font-weight: 800; 
 }
 
 ul {
