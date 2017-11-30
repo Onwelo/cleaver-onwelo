@@ -177,7 +177,7 @@ img.badge {
   cursor: pointer;
 }
 .overview:hover {
-  color: #1DB4D0;
+  color: #ff8b00;
 }
 .arrow {
   float: left;
@@ -210,12 +210,12 @@ img.badge {
 }
 
 .prev:hover {
-  border-right-color: #1DB4D0;
+  border-right-color: #ff8b00;
   cursor: pointer;
 }
 
 .next:hover {
-  border-left-color: #1DB4D0;
+  border-left-color: #ff8b00;
   cursor: pointer;
 }
 
