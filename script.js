@@ -208,8 +208,8 @@ function toggleOverview() {
   }
 }
 
-var h1s = document.getElementsByTagName('h3');
+var h1s = document.querySelectorAll("h2, h3")
 for(var i=0; i < h1s.length; i++) {
     var t = h1s[i];
-    t.innerHTML = '<span>' + t.innerHTML . split(' ') . join('</span> <span class="bolder">') +  '</span>'; 
+    t.innerText = '<span>' + t.innerText . split(' ') . join('</span> <span class="bolder">') +  '</span>'; 
 }
